@@ -208,7 +208,7 @@ nav h1 a {
 .inside #footer {
   bottom: 0;
   position: absolute;
-  width: 45%;
+  width: 44%;
 }
 #restaurant-name {
   color: #f18200;
@@ -243,7 +243,7 @@ nav h1 a {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
   padding: 140px 40px 30px;
-  width: 46%;
+  width: 44%;
 }
 #reviews-container {
   padding: 30px 40px 80px;
@@ -342,7 +342,7 @@ nav h1 a {
   nav{
     height:40%;
   }
-  
+
   nav h1 a{
     font-size:1em;
     font-weight:normal;
