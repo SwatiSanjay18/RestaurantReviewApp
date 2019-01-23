@@ -1,3 +1,4 @@
+//add listener to install event.
 self.addEventListener('install',function(event){
 	var cacheUrls = [
 						'/',
