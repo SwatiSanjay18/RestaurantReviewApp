@@ -19,4 +19,9 @@ self.addEventListener('install',function(event){
 						'/img/9.jpg',
 						'/img/10.jpg'
 					];	
+	event.waitUntil(caches.open('reviewCache').then(function(cache){
+		return cache.addAll(cacheUrls);
+	}).catch(function(err){
+		console.log("Error : " + err);
+	}));
 });
