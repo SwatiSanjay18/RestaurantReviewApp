@@ -350,5 +350,7 @@ nav h1 a {
   }
 }
 
-
+:focus{
+  outline: 4px solid navy;
+}
 
