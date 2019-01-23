@@ -26,3 +26,15 @@ self.addEventListener('install',function(event){
 		console.log("Error : " + err);
 	}));
 });
+
+//add listener for fetch and check for the request in cache
+self.addEventListener('fetch',function(event){
+	event.respondWith(caches.match(event.request)
+		.then(function(response){
+			if(response){
+				return response;
+			}else{
+				return fetch(event.request);
+			}
+		}));
+});
