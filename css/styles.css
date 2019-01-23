@@ -319,6 +319,7 @@ nav h1 a {
     height:30%;  
     padding-top:350px;  
     padding-right:20px; 
+    z-index: 1;
   }
 
   #reviews-container{
